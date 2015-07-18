@@ -7,8 +7,8 @@
 //
 
 #import "Start.h"
-#define nUagLat 20.695306
-#define nUagLng -103.418190
+#define nUagLat 45.5321042
+#define nUagLng -122.9353166
 
 @interface Start ()
 
