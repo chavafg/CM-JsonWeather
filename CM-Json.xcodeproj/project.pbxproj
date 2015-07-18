@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6858ECFE1B59F722005C063D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6858ECFD1B59F722005C063D /* Podfile */; };
 		D1DBA3B91B51631700DAB651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DBA3B81B51631700DAB651 /* main.m */; };
 		D1DBA3BC1B51631700DAB651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DBA3BB1B51631700DAB651 /* AppDelegate.m */; };
 		D1DBA3BF1B51631700DAB651 /* CM_Json.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1DBA3BD1B51631700DAB651 /* CM_Json.xcdatamodeld */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6858ECFD1B59F722005C063D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		D1DBA3B31B51631700DAB651 /* CM-Json.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CM-Json.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DBA3B71B51631700DAB651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1DBA3B81B51631700DAB651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			children = (
 				D1DBA3B71B51631700DAB651 /* Info.plist */,
 				D1DBA3B81B51631700DAB651 /* main.m */,
+				6858ECFD1B59F722005C063D /* Podfile */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				D1DBA3C51B51631700DAB651 /* Main.storyboard in Resources */,
 				D1DBA3CA1B51631700DAB651 /* LaunchScreen.xib in Resources */,
+				6858ECFE1B59F722005C063D /* Podfile in Resources */,
 				D1DBA3C71B51631700DAB651 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,6 +542,7 @@
 				D1DBA3DB1B51631700DAB651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1DBA3DC1B51631700DAB651 /* Build configuration list for PBXNativeTarget "CM-JsonTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +551,7 @@
 				D1DBA3DE1B51631700DAB651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,6 +7,7 @@
 //
 
 #import "Declarations.h"
+#import <UIKit/UIKit.h>
 
 #define nURLWeather     @"http://api.openweathermap.org/data/2.5/weather?"
 
@@ -15,6 +16,10 @@ NSString *mstHumidity;
 NSString *mstPressure;
 NSString *mstTempMin;
 NSString *mstTempMax;
+UIImage *wImage;
+NSString *mstPlace;
+NSString *mstCountry;
+
 
 @implementation Declarations
 

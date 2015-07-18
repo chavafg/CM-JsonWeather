@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "SBJson.h"
+#import <UIKit/UIKit.h>
 
 //Debug
 #define nDebugEnable        1
@@ -22,6 +23,9 @@ extern NSString *mstHumidity;
 extern NSString *mstPressure;
 extern NSString *mstTempMin;
 extern NSString *mstTempMax;
+extern UIImage *wImage;
+extern NSString *mstPlace;
+extern NSString *mstCountry;
 
 @interface Declarations : NSObject
 + (NSDictionary *)getWeather:(float)lat and:(float)lng;

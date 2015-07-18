@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Declarations.h"
+#import <UIKit/UIKit.h>
 
 @interface Parser : NSObject
 + (void)parseWeather:(NSDictionary*)json;
